@@ -322,3 +322,93 @@ section{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: center;
 }
+
+@media only screen and (max-width: 600px){
+    .header{
+        padding: 4rem 5%;
+    }
+    .logo{
+        font-size: 1.5rem;
+    }
+    .navbar a{
+        font-size: 1.9rem;
+    }
+    .home{
+        flex-direction: column;
+        gap: 7rem;
+    }
+    
+    .home-content h1{
+        font-size: 3rem;
+        margin-top: 0.5rem;
+    }
+    .home-content h2{
+        margin-top: 2.5rem;
+    }
+    .home-img img{
+        width: 60vw;
+        
+    }
+    .btn{
+        margin-top: 3rem;
+    }
+    .about{
+        gap: 6rem;
+    }
+    .about-content h3{
+        font-size: 6rem;
+        margin-top: 0rem;
+    }
+    .about-content p{
+        font-size: 2.5rem;
+        margin-top: 2.5rem;
+    }
+    .about-img img{
+        width: 60vw;
+    }
+    .about-content2 {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 2rem;
+    }
+    .about-content2 div{
+        height: 440px;
+    }
+    .about-content2 p{
+        font-size: 1.6rem;
+    }
+    .blog-content h3{
+        font-size: 6rem;
+        margin-top: 0rem;
+    }
+    .blog-content p{
+        font-size: 2.5rem;
+        margin-top: 1.5rem;
+        margin-bottom: 1.5rem;
+    }
+    .contact h3{
+        font-size: 6rem;
+    }
+}
+@media (max-width: 1050px) and (min-width: 601px){
+    .home{
+        flex-direction: column;
+        gap: 7rem;
+    }
+    .home-img img{
+        margin-top: 2rem;
+        width: 60vw;
+    }
+    .about-img img{
+        width: 60vw;
+    }
+    .about-content2 {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 2rem;
+    }
+    .about-content2 div{
+        height: 390px;
+    }
+    .about-content2 p{
+        font-size: 2.5rem;
+    }
+}
