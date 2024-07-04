@@ -3,15 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>KKODE_24</title>
+    <title>KK</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" type="x-icons" href="kk-logo.png">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'/>
     <script src="script.js"></script>
 </head>
 
 <body>
     <header class="header">
-        <a href="#home" class="logo"><span>KK</span>ODE_24</a>
+        <a href="#home" class="logo"><span>KK</span></a>
         <nav class="navbar">
             <a href="#home">Home</a>
             <a href="#about">About</a>
@@ -68,17 +69,18 @@
     
     <section class="contact" id="contact">
         <h3>Contact <span>Me</span></h3>
-        <form action="">
+        <form action="https://api.web3forms.com/submit" method="POST">
             <div class="input-group">
                 <div class="input-box">
-                    <input type="text" placeholder="Full name">
-                    <input type="text" placeholder="Email">
+                    <input type="text" name="full_name" placeholder="Full name">
+                    <input type="text" name="email" placeholder="Email">
                 </div>
             </div>
             <div class="input-group2">
-                <textarea name="" id="" cols="30" rows="10" placeholder="Messsage"></textarea>
+                <textarea name="message" id="" cols="30" rows="10" placeholder="Messsage"></textarea>
                 <input type="submit" value="send message" class="btn">
             </div>
+            <input type="hidden" name="access_key" value="e53c43f6-2df6-4c50-bc18-e14ad5d4b55e">
         </form>
         <h3>Find me <span>@</span></h3>
         <div class="social-icons">
